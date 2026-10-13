@@ -25,6 +25,8 @@ Open `http://localhost:4173/` in a browser. Python is only needed for this examp
 
 ## Deploy
 
-Serve the repository root with any static website host. Asset paths are relative to the domain root. Connecting `skylinehub.ai` requires configuring the chosen host and the domain's DNS records separately.
+GitHub Pages serves this website at https://srdjan-ethernal.github.io/skylinehub.ai/ using the `main` branch and repository root.
+
+The site can also be served by any static website host. Relative asset paths support both project subpaths and domain-root hosting. Connecting `skylinehub.ai` requires configuring the chosen host and the domain's DNS records separately.
 
 The workflow demonstration runs locally in the browser; it does not call AI services. Contact buttons open an email client. Fonts are loaded from Google Fonts with system-font fallbacks.
